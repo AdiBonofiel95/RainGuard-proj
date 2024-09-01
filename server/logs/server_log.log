@@ -1,8 +1,32 @@
-2024-09-01 22:05:56,155 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2024-09-01 22:23:35,287 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:8000
  * Running on http://192.168.0.104:8000
-2024-09-01 22:05:56,156 - INFO - [33mPress CTRL+C to quit[0m
-2024-09-01 22:05:56,156 - INFO -  * Restarting with stat
-2024-09-01 22:05:56,713 - WARNING -  * Debugger is active!
-2024-09-01 22:05:56,733 - INFO -  * Debugger PIN: 810-853-944
+2024-09-01 22:23:35,287 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-01 22:23:35,287 - INFO -  * Restarting with stat
+2024-09-01 22:23:35,929 - WARNING -  * Debugger is active!
+2024-09-01 22:23:35,937 - INFO -  * Debugger PIN: 810-853-944
+2024-09-01 22:23:52,938 - INFO - Incoming request: OPTIONS http://127.0.0.1:8000/ from     127.0.0.1 
+ data:b''
+2024-09-01 22:23:52,941 - INFO - Request handled: OPTIONS http://127.0.0.1:8000/ returned 200
+2024-09-01 22:23:52,942 - INFO - 127.0.0.1 - - [01/Sep/2024 22:23:52] "OPTIONS / HTTP/1.1" 200 -
+2024-09-01 22:23:52,942 - INFO - Incoming request: POST http://127.0.0.1:8000/ from     127.0.0.1 
+ data:b'{"userName":"awdadd","portNumber":1111}'
+2024-09-01 22:23:52,942 - INFO - Request handled: POST http://127.0.0.1:8000/ returned 200
+2024-09-01 22:23:52,942 - INFO - 127.0.0.1 - - [01/Sep/2024 22:23:52] "POST / HTTP/1.1" 200 -
+2024-09-01 22:23:52,975 - INFO - 127.0.0.1 - - [01/Sep/2024 22:23:52] "GET /socket.io/?EIO=4&transport=polling&t=P6l2pK7 HTTP/1.1" 200 -
+2024-09-01 22:23:52,985 - INFO - 127.0.0.1 - - [01/Sep/2024 22:23:52] "POST /socket.io/?EIO=4&transport=polling&t=P6l2pKJ&sid=skM3Z8Dlqa7V58tkAAAA HTTP/1.1" 200 -
+2024-09-01 22:23:52,997 - INFO - 127.0.0.1 - - [01/Sep/2024 22:23:52] "GET /socket.io/?EIO=4&transport=polling&t=P6l2pKW&sid=skM3Z8Dlqa7V58tkAAAA HTTP/1.1" 200 -
+2024-09-01 22:24:36,034 - INFO - Incoming request: OPTIONS http://127.0.0.1:8000/ from     127.0.0.1 
+ data:b''
+2024-09-01 22:24:36,035 - INFO - Request handled: OPTIONS http://127.0.0.1:8000/ returned 200
+2024-09-01 22:24:36,035 - INFO - 127.0.0.1 - - [01/Sep/2024 22:24:36] "OPTIONS / HTTP/1.1" 200 -
+2024-09-01 22:24:36,035 - INFO - Incoming request: POST http://127.0.0.1:8000/ from     127.0.0.1 
+ data:b'{"userName":"tttt","portNumber":1111}'
+2024-09-01 22:24:36,035 - INFO - Request handled: POST http://127.0.0.1:8000/ returned 200
+2024-09-01 22:24:36,035 - INFO - 127.0.0.1 - - [01/Sep/2024 22:24:36] "POST / HTTP/1.1" 200 -
+2024-09-01 22:24:36,085 - INFO - 127.0.0.1 - - [01/Sep/2024 22:24:36] "GET /socket.io/?EIO=4&transport=polling&t=P6l2zrl HTTP/1.1" 200 -
+2024-09-01 22:24:36,095 - INFO - 127.0.0.1 - - [01/Sep/2024 22:24:36] "POST /socket.io/?EIO=4&transport=polling&t=P6l2zrv&sid=KZtd_U46R2SttOKdAAAC HTTP/1.1" 200 -
+2024-09-01 22:24:36,096 - INFO - 127.0.0.1 - - [01/Sep/2024 22:24:36] "GET /socket.io/?EIO=4&transport=polling&t=P6l2zrw&sid=KZtd_U46R2SttOKdAAAC HTTP/1.1" 200 -
+2024-09-01 22:25:06,594 - INFO - 127.0.0.1 - - [01/Sep/2024 22:25:06] "GET /socket.io/?EIO=4&transport=websocket&sid=KZtd_U46R2SttOKdAAAC HTTP/1.1" 200 -
+2024-09-01 22:25:34,322 - INFO - 127.0.0.1 - - [01/Sep/2024 22:25:34] "GET /socket.io/?EIO=4&transport=websocket&sid=skM3Z8Dlqa7V58tkAAAA HTTP/1.1" 200 -

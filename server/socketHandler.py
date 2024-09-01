@@ -26,7 +26,6 @@ class SocketHandler:
         emit('connection status message', connection_message, to=room)
         join_room(room)
         print(f'{user_name} joined the room on port {room}')
-        self.__chat_room_manager.print_all_opened_ports()
 
 
     def __disconnect(self):
@@ -39,8 +38,6 @@ class SocketHandler:
         disconnection_message = f'{user_name} has left the room'
         emit('connection status message', disconnection_message, to=room)
         session.clear()
-
-        self.__chat_room_manager.print_all_opened_ports()
 
     
     def __send_message(self, data):

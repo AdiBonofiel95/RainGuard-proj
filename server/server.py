@@ -15,7 +15,8 @@ setup_logger()
 
 @app.before_request
 def log_request():
-    message = f'Incoming request: {request.method} {request.url} from {request.remote_addr}'
+    message = f'Incoming request: {request.method} {request.url} from \
+    {request.remote_addr} \n data:{request.data}'
     app.logger.info(message)
 
 @app.after_request
